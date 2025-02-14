@@ -45,11 +45,11 @@ const Popup = () => {
                   <div className="modal-dialog">
                     <div className="modal-content custom-bg-black ">
                       <div className="modal-body">
-                        <ReactPlayer
+                        {/* <ReactPlayer
                           url={data.link}
                           controls={true}
                           className="d-block w-100"
-                        />
+                        /> */}
                       </div>
 
                       <button
