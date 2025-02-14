@@ -53,11 +53,11 @@ const Music = () => {
             const { _id, link, image } = music;
             return (
               <div key={_id}>
-                <img src={image} alt="" className="" />
-                {/* <a target="_blank" href={link}>
-                  {" "}
-                </a> */}
-               
+                <a target="_blank" href={link}>
+                  <div>
+                    <img src={image} alt="image" />
+                  </div>
+                </a>
               </div>
             );
           })}
