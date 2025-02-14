@@ -57,7 +57,7 @@ const Music = () => {
                 {/* <a target="_blank" href={link}>
                   {" "}
                 </a> */}
-                <img src={image} alt="" srcset={link} />
+               
               </div>
             );
           })}
