@@ -7,7 +7,6 @@ import "./Popup.css";
 import { Media } from "../utils/morayo";
 import ReactPlayer from "react-player";
 const Popup = () => {
-  
   return (
     <div className="custom-bg-black py-5 popup">
       <div className="py-5 px-3 popupvideo container-xl px-xl-5">
@@ -50,6 +49,7 @@ const Popup = () => {
                           controls={true}
                           className="d-block w-100"
                         /> */}
+                        <img src={data.img} alt="" />
                       </div>
 
                       <button
