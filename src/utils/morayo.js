@@ -86,52 +86,69 @@ export const Tours = [
 export const Pictures = [
   {
     id: 1,
-    image: "../src/assets/image/Piece_of_my_Heart.webp",
+    image:
+      "https://www.wizkidofficial.com/assets/img/albums/Piece_of_my_Heart.webp",
+    // image: "../src/assets/image/Piece_of_my_Heart.webp",
     link: "https://wizkid.lnk.to/pieceofmyheart",
   },
   {
     id: 2,
-    image: "../src/assets/image/Wizkid_S2.webp",
+    // image: "../src/assets/image/Wizkid_S2.webp",
+    image: "https://www.wizkidofficial.com/assets/img/albums/Wizkid_S2.webp",
     link: "http://wizkid.lnk.to/S2EP",
   },
   {
     id: 3,
-    image: "../src/assets/image/Wizkid_MoreLoveLessEgo.webp",
+    // image: "../src/assets/image/Wizkid_MoreLoveLessEgo.webp",
+    image:
+      "https://www.wizkidofficial.com/assets/img/albums/Wizkid_MoreLoveLessEgo.webp",
     link: "https://wizkid.lnk.to/MoreLoveLessEgo",
   },
   {
     id: 4,
-    image: "../src/assets/image/Wizkid_BadToMe.webp",
+    // image: "../src/assets/image/Wizkid_BadToMe.webp",
+    image:
+      "https://www.wizkidofficial.com/assets/img/albums/Wizkid_BadToMe.webp",
     link: "https://wizkid.lnk.to/badtome",
   },
   {
     id: 5,
-    image: "../src/assets/image/Wizkid_MIL_Deluxe.webp",
+    // image: "../src/assets/image/Wizkid_MIL_Deluxe.webp",
+    image:
+      "https://www.wizkidofficial.com/assets/img/albums/Wizkid_MadeInLagos.webp",
     link: "https://wizkid.lnk.to/MILDeluxe",
   },
   {
     id: 6,
-    image: "../src/assets/image/Wizkid_Essence.webp",
+    // image: "../src/assets/image/Wizkid_Essence.webp",
+    image:
+      "https://www.wizkidofficial.com/assets/img/albums/Wizkid_Essence.webp",
     link: "https://wizkid.lnk.to/EssenceRmx",
   },
   {
     id: 7,
-    image: "../src/assets/image/Wizkid_Joro.webp",
+    // image: "../src/assets/image/Wizkid_Joro.webp",
+    image: "https://www.wizkidofficial.com/assets/img/albums/Wizkid_Joro.webp",
     link: "https://wizkid.lnk.to/J0RO",
   },
   {
     id: 8,
-    image: "../src/assets/image/Wizkid_NoStress.webp",
+    // image: "../src/assets/image/Wizkid_NoStress.webp",
+    image:
+      "https://www.wizkidofficial.com/assets/img/albums/Wizkid_NoStress.webp",
     link: "https://wizkid.lnk.to/nostress",
   },
   {
     id: 9,
-    image: "../src/assets/image/Wizkid_MadeInLagos.webp",
+    // image: "../src/assets/image/Wizkid_MadeInLagos.webp",
+    image:
+      "https://www.wizkidofficial.com/assets/img/albums/Wizkid_MIL_Deluxe.webp",
     link: "http://wizkid.lnk.to/MadeInLagos",
   },
   {
     id: 10,
-    image: "../src/assets/image/Wizkid_Smile.webp",
+    // image: "../src/assets/image/Wizkid_Smile.webp",
+    image: "https://www.wizkidofficial.com/assets/img/albums/Wizkid_Smile.webp",
     link: "https://wizkid.lnk.to/sml",
   },
 ];
