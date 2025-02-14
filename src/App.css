@@ -1,0 +1,87 @@
+#root {
+  text-align: center;
+  min-height: 100vh;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #ce282c;
+  --black: #000000;
+  --white: #ffffff;
+  --light-grey: #5f6e70;
+  --warm-white: #f1eadf;
+}
+
+.custom-text-red {
+  color: var(--red);
+}
+.custom-bg-red {
+  background-color: var(--red);
+}
+.custom-text-black {
+  color: var(--black);
+}
+.custom-bg-black {
+  background-color: var(--black);
+}
+.custom-text-warm-white {
+  background-color: var(--warm-white);
+}
+.custom-text-light-grey {
+  background-color: var(--light-grey);
+}
+.custom-text-white {
+  color: var(--white);
+}
+.custom-bg-white {
+  background-color: var(--white);
+}
+
+.hero {
+  height: 600px;
+  background-color: aqua;
+}
+.musicss {
+  height: 600px !important;
+  background-color: green;
+}
+.videoss {
+  height: 600px;
+  background-color: yellow;
+}
+.tourss {
+  height: 600px;
+  background-color: blue;
+}
+.link {
+  text-decoration: none;
+  display: inline;
+  padding: 20px 20px;
+  font: 700;
+  font-size: large;
+  cursor: pointer;
+}
+/* scroll to top button */
+
+.top-btn-position {
+  position: fixed !important;
+  bottom: 25px !important;
+  right: 25px !important;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: var(--red) !important;
+  color: var(--black) !important;
+  cursor: pointer;
+}
+.top-btn-position:hover {
+  animation: none;
+  background-color: black !important;
+  color: var(--red) !important;
+  border: 2px solid var(--red) !important;
+}

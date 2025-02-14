@@ -1,0 +1,18 @@
+.music {
+  height: 100%;
+}
+
+.music p {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.music img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 10/9;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+

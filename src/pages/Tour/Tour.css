@@ -1,0 +1,31 @@
+.tour {
+  height: 100vh;
+}
+
+.tour1 {
+  font-size: 45px;
+  font-weight: 900;
+}
+table {
+  width: 100%;
+}
+td {
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--white);
+}
+tr {
+  border-bottom: 3px solid var(--red);
+}
+
+tr:hover {
+  background-color: grey;
+}
+table {
+  width: 100%;
+}
+td a {
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--white);
+}

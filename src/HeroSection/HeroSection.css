@@ -1,0 +1,61 @@
+.herosection {
+  min-height: 100vh;
+}
+.herosection3 {
+  gap: 100px;
+  padding-top: 30px;
+}
+
+.morayo {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .morayo {
+    width: 450px;
+    height: 450px;
+    aspect-ratio: 4/4;
+  }
+}
+
+.herosection1 {
+  font-size: 24px;
+  font-weight: 900;
+}
+.herosection2 {
+  font-size: 85px;
+  font-weight: 900;
+}
+.herosection5 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.herosectionA {
+  font-size: 24px;
+  font-weight: 900;
+}
+.herosectionA:hover {
+  color: var(--black);
+  background-color: var(--white);
+}
+@media (max-width: 475px) {
+  .herosection1 {
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .herosection2 {
+    font-size: 42px;
+    font-weight: 900;
+  }
+  .herosection3 {
+    padding-top: 20px;
+    gap: 12px;
+  }
+  .herosectionA {
+    font-size: 12px;
+    font-weight: 900;
+  }
+  .herosection5 {
+    font-size: 30px;
+    font-weight: 900;
+  }
+}
