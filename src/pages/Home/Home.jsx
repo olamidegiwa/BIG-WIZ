@@ -20,7 +20,7 @@ const Home = () => {
   };
   return (
     <div className="home custom-bg-red ">
-      <ul className="home1 d-flex  justify-content-md-center m-0">
+      <ul className="home1  px-0 m-0">
         <li
           onClick={() => scrollToSections(musics)}
           className=" home4 custom-text-black"
@@ -41,7 +41,7 @@ const Home = () => {
         </li>
       </ul>
       <video loop autoPlay muted preload playsInline src={wizkid}></video>
-      <div className="px-2 px-lg-0 d-flex gap-md-5 gap-2 justify-content-center align-items-center pb-1">
+      <div className="px-2 px-lg-0 d-flex gap-md-5 gap-2 justify-content-center align-items-center pb-1 home5">
         <h1 className="m-0 home2">THE NEW ALBUM</h1>
         <h2 className="m-0 home3">MORAYO</h2>
         <a href="https:/wizkid.lnk.to/morayo" target="_blank">

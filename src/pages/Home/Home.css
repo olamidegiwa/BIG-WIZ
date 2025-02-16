@@ -4,6 +4,9 @@
   overflow-x: hidden;
 }
 .home1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 100px;
   font-size: 32px;
   font-weight: 900;
@@ -30,19 +33,21 @@ video {
   font-size: 42px;
   font-weight: 900;
 }
-.home button {
+.home5 button {
   font-size: 18px;
   font-weight: 900;
   border: 2px solid var(--black);
 }
-.home button:hover {
+.home5 button:hover {
   background-color: var(--black);
   color: var(--red);
   border: 2px solid var(--red);
 }
-@media (max-width: 475px) {
+@media (max-width: 480px) {
   .home1 {
     gap: 20px;
+    font-size: 28px;
+    font-weight: 900;
   }
   .home2 {
     font-size: 14px;

@@ -52,7 +52,7 @@ const Popup = () => {
 
                       <button
                         type="button"
-                        className="btn-clos custom-bg-black  custom-text-white text-decoration-underline border-0 m-0"
+                        className="custom-bg-black  custom-text-white text-decoration-underline border-0 m-0 modal-button"
                         data-bs-dismiss="modal"
                       >
                         CLOSE
