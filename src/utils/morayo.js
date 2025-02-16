@@ -2,35 +2,30 @@ export const Media = [
   {
     id: 1,
     title: "PIECE OF MY HEART",
-    // img: "../src/assets/image/maxresdefault.jpg",
     img: "https://i3.ytimg.com/vi/zr_sTaYTCnU/maxresdefault.jpg",
     link: "https://www.youtube.com/watch?v=zr_sTaYTCnU",
   },
   {
     id: 2,
     title: "DIAMOND",
-    // img: "../src/assets/image/maxresdefault (1).jpg",
     img: "https://i3.ytimg.com/vi/utmQRZSs6SE/maxresdefault.jpg",
     link: "https://www.youtube.com/watch?v=utmQRZSs6SE",
   },
   {
     id: 3,
     title: "IDK",
-    // img: "../src/assets/image/maxresdefault (2).jpg",
     img: "https://i3.ytimg.com/vi/D2NkA-7WILc/maxresdefault.jpg",
     link: "https://www.youtube.com/watch?v=D2NkA-7WILc",
   },
   {
     id: 4,
     title: "ESSENCE",
-    // img: ".././src/assets/image/maxresdefault (3).jpg",
     img: "https://i3.ytimg.com/vi/jipQpjUA_o8/maxresdefault.jpg",
     link: "https://www.youtube.com/watch?v=jipQpjUA_o8",
   },
   {
     id: 5,
     title: "NO STRESS",
-    // img: ".././src/assets/image/maxresdefault (4).jpg",
     img: "https://i3.ytimg.com/vi/veIK9yEabNc/maxresdefault.jpg",
     link: "https://www.youtube.com/watch?v=veIK9yEabNc&t=57s",
   },
@@ -38,34 +33,30 @@ export const Media = [
     id: 6,
     link: "https://www.youtube.com/watch?v=YSy2lBZ1QrA",
     title: "GINGER",
-    // img: "../src/assets/image/maxresdefault (5).jpg",
     img: "https://i3.ytimg.com/vi/YSy2lBZ1QrA/maxresdefault.jpg",
   },
   {
     id: 7,
     title: "MOOD",
     link: "https://www.youtube.com/watch?v=r-Q6UrrxF4U",
-    // img: "../src/assets/image/maxresdefault (6).jpg",
     img: "https://i3.ytimg.com/vi/r-Q6UrrxF4U/maxresdefault.jpg",
   },
   {
     id: 8,
     title: "TRUE LOVE",
     link: "https://www.youtube.com/watch?v=RstK5waga3o",
-    img: "../src/assets/image/maxresdefault (7).jpg",
+    img: "https://i3.ytimg.com/vi/RstK5waga3o/maxresdefault.jpg",
   },
   {
     id: 9,
     title: "CALL ME EVERYDAY",
     link: "https://www.youtube.com/watch?v=BLN2nsm1w6w",
-    // img: "../src/assets/image/maxresdefault (8).jpg",
-    img: "https://i3.ytimg.com/vi/RstK5waga3o/maxresdefault.jpg",
+    img: "https://i3.ytimg.com/vi/BLN2nsm1w6w/maxresdefault.jpg",
   },
   {
     id: 10,
     title: "BAD TO ME",
     link: "https://www.youtube.com/watch?v=2mkhevOXVNk",
-    // img: "../src/assets/image/maxresdefault (9).jpg",
     img: "https://i3.ytimg.com/vi/2mkhevOXVNk/maxresdefault.jpg",
   },
 ];
@@ -97,66 +88,56 @@ export const Pictures = [
     id: 1,
     image:
       "https://www.wizkidofficial.com/assets/img/albums/Piece_of_my_Heart.webp",
-    // image: "../src/assets/image/Piece_of_my_Heart.webp",
     link: "https://wizkid.lnk.to/pieceofmyheart",
   },
   {
     id: 2,
-    // image: "../src/assets/image/Wizkid_S2.webp",
     image: "https://www.wizkidofficial.com/assets/img/albums/Wizkid_S2.webp",
     link: "http://wizkid.lnk.to/S2EP",
   },
   {
     id: 3,
-    // image: "../src/assets/image/Wizkid_MoreLoveLessEgo.webp",
     image:
       "https://www.wizkidofficial.com/assets/img/albums/Wizkid_MoreLoveLessEgo.webp",
     link: "https://wizkid.lnk.to/MoreLoveLessEgo",
   },
   {
     id: 4,
-    // image: "../src/assets/image/Wizkid_BadToMe.webp",
     image:
       "https://www.wizkidofficial.com/assets/img/albums/Wizkid_BadToMe.webp",
     link: "https://wizkid.lnk.to/badtome",
   },
   {
     id: 5,
-    // image: "../src/assets/image/Wizkid_MIL_Deluxe.webp",
     image:
       "https://www.wizkidofficial.com/assets/img/albums/Wizkid_MadeInLagos.webp",
     link: "https://wizkid.lnk.to/MILDeluxe",
   },
   {
     id: 6,
-    // image: "../src/assets/image/Wizkid_Essence.webp",
     image:
       "https://www.wizkidofficial.com/assets/img/albums/Wizkid_Essence.webp",
     link: "https://wizkid.lnk.to/EssenceRmx",
   },
   {
     id: 7,
-    // image: "../src/assets/image/Wizkid_Joro.webp",
     image: "https://www.wizkidofficial.com/assets/img/albums/Wizkid_Joro.webp",
     link: "https://wizkid.lnk.to/J0RO",
   },
   {
     id: 8,
-    // image: "../src/assets/image/Wizkid_NoStress.webp",
     image:
       "https://www.wizkidofficial.com/assets/img/albums/Wizkid_NoStress.webp",
     link: "https://wizkid.lnk.to/nostress",
   },
   {
     id: 9,
-    // image: "../src/assets/image/Wizkid_MadeInLagos.webp",
     image:
       "https://www.wizkidofficial.com/assets/img/albums/Wizkid_MIL_Deluxe.webp",
     link: "http://wizkid.lnk.to/MadeInLagos",
   },
   {
     id: 10,
-    // image: "../src/assets/image/Wizkid_Smile.webp",
     image: "https://www.wizkidofficial.com/assets/img/albums/Wizkid_Smile.webp",
     link: "https://wizkid.lnk.to/sml",
   },

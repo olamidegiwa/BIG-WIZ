@@ -1,4 +1,4 @@
-.popup{
+.popup {
   min-width: 100vw;
   min-height: 100vh;
 }
@@ -9,11 +9,11 @@
   position: relative;
   margin: 0 auto;
 }
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .popupvideo {
     width: 90%;
   }
-}
+} */
 
 .title {
   font-size: 16px;
@@ -26,9 +26,16 @@
 }
 .popupvideo .media-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
   gap: 50px;
   margin: auto;
+}
+@media (max-width: 480px) {
+  .popupvideo .media-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    margin: 6px auto;
+  }
 }
 .popupvideo .media-container .media {
   height: 100%;
@@ -38,21 +45,29 @@
   object-fit: contain;
 }
 
-/* .popupvideo .media-container .media :is(video, img) {
-  width: 100%;
+.popupvideo .media-container .media :is(video, img) {
+  width: 110%;
   height: 90%;
   object-fit: contain;
-} */
+}
 
 .modal-dialog {
-  top: 15%;
-  width: 90%;
-  max-width: 500px;
+  top: 25%;
+  width: 100%;
+  max-width: 350px;
+  height: 230px;
+  border: 1px solid var(--white);
+  background: black;
 }
-/* @media (max-width: 480px) {
-  .modal-dialog {
-    width: 90%;
-    margin: 0 auto;
-    top: 20%;
-  }
-} */
+.modal-content {
+  border-radius: 0px;
+  border: none;
+  display: contents;
+}
+.modal-body {
+  display: contents;
+}
+.video {
+  width: 100% !important;
+  height: 200px !important;
+}

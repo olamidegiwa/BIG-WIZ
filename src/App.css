@@ -42,22 +42,7 @@
   background-color: var(--white);
 }
 
-.hero {
-  height: 600px;
-  background-color: aqua;
-}
-.musicss {
-  height: 600px !important;
-  background-color: green;
-}
-.videoss {
-  height: 600px;
-  background-color: yellow;
-}
-.tourss {
-  height: 600px;
-  background-color: blue;
-}
+
 .link {
   text-decoration: none;
   display: inline;

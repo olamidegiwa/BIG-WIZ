@@ -20,7 +20,7 @@ const Home = () => {
   };
   return (
     <div className="home custom-bg-red ">
-      <ul className="home1  d-flex justify-content-center align-items-center m-0">
+      <ul className="home1 d-flex  justify-content-md-center m-0">
         <li
           onClick={() => scrollToSections(musics)}
           className=" home4 custom-text-black"
@@ -41,15 +41,13 @@ const Home = () => {
         </li>
       </ul>
       <video loop autoPlay muted preload playsInline src={wizkid}></video>
-      <div className="d-flex px-2 gap-md-5 gap-2 justify-content-center align-items-center">
-        <h2 className="m-0 home2">THE NEW ALBUM</h2>
-        <h1 className="m-0 home3">MORAYO</h1>
-        <a
-          href="https:/wizkid.lnk.to/morayo"
-          className=" m-0 homeA custom-bg-red px-2 py-1 border border-2 border-black text-decoration-none custom-text-black"
-          target="_blank"
-        >
-          LISTEN NOW
+      <div className="px-2 px-lg-0 d-flex gap-md-5 gap-2 justify-content-center align-items-center pb-1">
+        <h1 className="m-0 home2">THE NEW ALBUM</h1>
+        <h2 className="m-0 home3">MORAYO</h2>
+        <a href="https:/wizkid.lnk.to/morayo" target="_blank">
+          <button className="custom-text-black py-1 px-md-2 px-1  custom-bg-red ">
+            LISTEN NOW
+          </button>
         </a>
       </div>
       <HeroSection />

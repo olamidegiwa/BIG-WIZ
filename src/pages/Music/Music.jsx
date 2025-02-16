@@ -1,13 +1,5 @@
 import React from "react";
 import "./Music.css";
-import frentbaiyaz from "../../assets/image/Piece_of_my_Heart.webp";
-import sound2 from "../../assets/image/Wizkid_S2.webp";
-import mlle from "../../assets/image/Wizkid_MoreLoveLessEgo.webp";
-import badtome from "../../assets/image/Wizkid_BadToMe.webp";
-import mil from "../../assets/image/Wizkid_MIL_Deluxe.webp";
-import essence from "../../assets/image/Wizkid_Essence.webp";
-import joro from "../../assets/image/Wizkid_Joro.webp";
-import mil2 from "../../assets/image/Wizkid_NoStress.webp";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
