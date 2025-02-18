@@ -23,8 +23,8 @@
 }
 .footer p {
   font-size: 10px;
-  font-weight: bold;
-  line-height: 0.98em;
+  font-weight: 700;
+  line-height: 0.96em;
   color: var(--red);
 }
 @media (max-width: 1200px) {

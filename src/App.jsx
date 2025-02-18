@@ -6,12 +6,12 @@ import Home from "./pages/Home/Home";
 import Footer from "./Footer/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
 
+
 function App() {
- 
   return (
     <>
       <ScrollToTop />
-      <Home/>
+      <Home />
       <Footer />
     </>
   );
