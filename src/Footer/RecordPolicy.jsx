@@ -3,8 +3,8 @@ import RCA from "../assets/image/rca.svg";
 const RecordPolicy = () => {
   return (
     <div className=" record d-flex flex-column align-items-center align-items-xl-start  gap-1  py-xl-0  py-2">
-      <a href="https://www.rcarecords.com/">
-        <img src={RCA} alt="" />
+      <a target="_blank" href="https://www.rcarecords.com/">
+        <img src={RCA} alt="RCA" />
       </a>
 
       <p className="custom-text-red text-xl-start  text-center m-0">
@@ -14,21 +14,21 @@ const RecordPolicy = () => {
           href="https://www.sonymusic.com/"
           className="custom-text-red text-decoration-none pe-1"
         >
-          &copy; 2025 Sony Music Entertainment.all rights <br /> reserverd.  
+          &copy; 2025 Sony Music Entertainment.all rights <br /> reserverd.
         </a>
         <a
           target="_blank"
           href="https://www.sonymusic.com/terms-and-conditions/"
           className="custom-text-red text-decoration-none pe-1"
         >
-         | Terms And Conditions 
+          | Terms And Conditions
         </a>
         <a
           target="_blank"
           href="https://www.sonymusic.com/privacy-policy/  "
           className="custom-text-red text-decoration-none pe-1"
         >
-       | Privacy Policy
+          | Privacy Policy
         </a>
         <br />
         <a
@@ -36,7 +36,7 @@ const RecordPolicy = () => {
           href=""
           className="custom-text-red text-decoration-none pe-1"
         >
-         | How We User Your Data
+          | How We User Your Data
         </a>
         <a
           target="_blank"
@@ -50,17 +50,16 @@ const RecordPolicy = () => {
           href="https://www.sonymusic.com/ccpa-contact-form/"
           className="custom-text-red text-decoration-none pe-1"
         >
-        | Do Not <br /> Sell My Personal Information 
+          | Do Not <br /> Sell My Personal Information
         </a>
         <a
           target="_blank"
           href="https://www.sonymusic.com/feedback/"
           className="custom-text-red text-decoration-none"
         >
-        | Send Us Feedback
+          | Send Us Feedback
         </a>
       </p>
-     
     </div>
   );
 };

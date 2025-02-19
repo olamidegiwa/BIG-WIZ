@@ -3,13 +3,13 @@ import React from "react";
 const Email = () => {
   return (
     <div className="email d-flex flex-column  flex-xl-row gap-4 gap-xl-2 align-items-xl-end align-items-center  py-xl-0 py-5 ">
-      <div className="d-flex gap-1 ">
+      <div className="d-flex gap-1  ">
         <input
           type="email"
           name=""
           id=""
           placeholder="EMAIL ADDRESS"
-          className=""
+          
         />
         <button className="px-2">JOIN</button>
       </div>

@@ -9,6 +9,7 @@
   font-size: 24px;
   font-weight: bold;
   color: var(--white);
+  width: 75%;
 }
 .footer input:focus {
   outline: none;
@@ -27,10 +28,21 @@
   line-height: 0.96em;
   color: var(--red);
 }
+.footer p a {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 0.96em;
+  color: var(--red);
+}
 @media (max-width: 1200px) {
   .footer p {
     color: var(--white);
-    font-size: 12px;
+    font-size: 8px;
+    font-weight: 700;
+  }
+  .footer p a {
+    font-size: 8px;
+    font-weight: 700;
   }
 }
 
@@ -40,16 +52,20 @@ span {
 .footer img {
   width: 45px;
 }
+
 @media (max-width: 1200px) {
   .email {
     width: 90%;
     border-bottom: 1px solid var(--red);
     border-top: 1px solid var(--red);
+    margin: 0 auto;
   }
   .record {
     width: 90%;
+    margin: 0 auto;
   }
   .social {
     width: 90%;
+    margin: 0 auto;
   }
 }

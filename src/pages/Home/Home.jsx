@@ -54,14 +54,17 @@ const Home = () => {
         <div className="px-1 d-flex gap-md-5 gap-2 justify-content-center align-items-center pb-1 home5 w-100 custom-bg-red py-2">
           <h1 className="m-0 home2 custom-text-black">THE NEW ALBUM</h1>
           <h2 className="m-0 home3 custom-text-black">MORAYO</h2>
-          <a href="https:/wizkid.lnk.to/morayo" target="_blank">
-            <button className="custom-text-black py-1 px-md-2 px-1  custom-bg-red ">
-              LISTEN NOW
-            </button>
-          </a>
+          <div>
+            <a target="_blank" href="https:/wizkid.lnk.to/morayo">
+              <button className="custom-text-black py-1 px-md-2 px-1  custom-bg-red ">
+                LISTEN NOW
+              </button>
+            </a>
+          </div>
         </div>
       </div>
       <HeroSection />
+      {/* <img src="" alt="" /> */}
       <div ref={musics}>
         <Music />
       </div>
