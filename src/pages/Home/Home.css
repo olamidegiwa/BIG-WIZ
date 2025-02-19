@@ -1,16 +1,16 @@
 .header {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .home {
   min-width: 100vw;
   height: 95vh;
-  overflow-x: hidden;
+  overflow: hidden;
   object-fit: contain;
 }
 @media (max-width: 980px) {
   .home {
     min-height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
     object-fit: contain;
   }
 }
@@ -31,14 +31,14 @@
   position: relative;
   z-index: -1;
   width: 100% !important;
-  height: 100vh;
+  height: 95vh;
   object-fit: cover;
   overflow: hidden;
 }
 @media (min-width: 0px) {
   .home-video {
     width: 100% !important;
-    min-height: 100vh !important;
+    height: 100vh !important;
     /* aspect-ratio: 7/2 !important; */
     object-fit: cover;
     overflow: hidden;
@@ -56,7 +56,7 @@
   position: absolute;
   top: 91%;
 }
-@media (max-width: 480px) {
+@media (min-width: 0px) {
   .home5 {
     top: 94%;
   }
