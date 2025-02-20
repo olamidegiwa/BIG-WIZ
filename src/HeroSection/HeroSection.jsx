@@ -12,13 +12,15 @@ const HeroSection = () => {
         <div className="d-flex flex-column justify-content-start align-items-start herosection4">
           <h5 className="m-0 custom-text-white herosection1">THE NEW ALBUM</h5>
           <h1 className=" custom-text-white herosection2 ">MORAYO</h1>
-          <a
-            href="https:/wizkid.lnk.to/morayo"
-            className=" m-0 custom-bg-black custom-text-white px-3 py-1 border border-2 border-white text-decoration-none herosectionA"
-            target="_blank"
-          >
-            LISTEN NOW
-          </a>
+          <div>
+            <a
+              target="_blank"
+              href="https://wizkid.lnk.to/morayo"
+              className=" m-0 custom-bg-black custom-text-white px-3 py-1 border border-2 border-white text-decoration-none herosectionA"
+            >
+              LISTEN NOW
+            </a>
+          </div>
         </div>
       </div>
       <div className="container px-4 py-5 d-flex flex-column flex-xl-row justify-content-xl-center align-items-xl-center herosection3 justify-content-sm-start align-items-sm-start">
