@@ -37,7 +37,7 @@ const Music = () => {
   return (
     <div className="custom-bg-black music py-5">
       <div className="container-xl px-xl-5">
-        <p className="custom-text-white text-lg-start text-center pb-3">
+        <p className="custom-text-white text-start  pb-3">
           MORE MUSIC FROM WIZKID
         </p>
         <Slider {...settings}>

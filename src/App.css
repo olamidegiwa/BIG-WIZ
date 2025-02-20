@@ -4,8 +4,8 @@
 }
 
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -41,17 +41,6 @@
 .custom-bg-white {
   background-color: var(--white);
 }
-
-
-/* .link {
-  text-decoration: none;
-  display: inline;
-  padding: 20px 20px;
-  font: 700;
-  font-size: large;
-  cursor: pointer;
-} */
-
 
 /* scroll to top button */
 

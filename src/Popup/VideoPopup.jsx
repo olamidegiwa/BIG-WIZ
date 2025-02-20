@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import "bootstrap/js/src/modal";
 import Modal from "react-bootstrap/Modal";
-import "./Popup.css";
+import "./VideoPopup.css";
 import { Media } from "../utils/morayo";
 import ReactPlayer from "react-player";
 const Popup = () => {
   return (
     <div className="custom-bg-black py-5 popup">
       <div className=" popupvideo container-xl px-xl-5 ">
-        <h1 className="text-lg-start text-center custom-text-white pb-lg-5 pb-2 px-0">
+        <h1 className="text-start custom-text-white pb-lg-5 pb-2 px-0">
           MORE VIDEOS FROM WIZKID
         </h1>
         <div className="media-container">
