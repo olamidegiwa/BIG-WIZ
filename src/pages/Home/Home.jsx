@@ -20,7 +20,7 @@ const Home = () => {
     });
   };
   return (
-    <div className="header">
+    <div className="header ">
       <div className="home">
         <ul className="home1  px-0 m-0 py-2 w-100 custom-bg-red d-flex justify-content-center align-items-center custom-text-black ">
           <li

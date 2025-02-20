@@ -6,7 +6,7 @@ import pieceofmyheart from "../assets/image/Piece_of_my_Heart.webp";
 const HeroSection = () => {
   return (
     <div className="custom-bg-black py-5 herosection ">
-      <div className="container px-4 d-flex flex-column flex-xl-row justify-content-xl-center align-items-xl-center herosection3 justify-content-sm-start align-items-sm-start py-xl-5">
+      <div className="container px-4 d-flex flex-column flex-xl-row justify-content-xl-center align-items-xl-center herosection3 justify-content-sm-start align-items-sm-start py-5">
         <img src={morayo} alt="morayo" className="morayo" />
 
         <div className="d-flex flex-column justify-content-start align-items-start herosection4">
