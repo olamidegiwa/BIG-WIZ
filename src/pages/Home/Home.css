@@ -17,7 +17,7 @@
 .home1 {
   position: absolute;
   top: -5px;
-  gap: 100px;
+  gap: 95px;
   font-size: 32px;
   font-weight: 900;
 }
@@ -60,13 +60,13 @@
     top: 94%;
   }
 } */
-.home5 button {
+.home5 a {
   font-size: 18px;
   font-weight: 900;
   border: 2px solid var(--black);
   line-height: 0.85em;
 }
-.home5 button:hover {
+.home5 a:hover {
   background-color: var(--black);
   color: var(--red);
   border: 2px solid var(--red);
@@ -90,7 +90,7 @@
     font-size: 14px;
     font-weight: 900;
   }
-  .home button {
+  .home a {
     font-size: 14px;
     font-weight: 900;
   }

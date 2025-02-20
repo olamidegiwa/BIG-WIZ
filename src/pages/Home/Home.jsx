@@ -55,11 +55,14 @@ const Home = () => {
           <h1 className="m-0 home2 custom-text-black">THE NEW ALBUM</h1>
           <h2 className="m-0 home3 custom-text-black">MORAYO</h2>
           <div>
-            <a target="_blank" href="https:/wizkid.lnk.to/morayo">
-              <button className="custom-text-black py-1 px-md-2 px-1  custom-bg-red ">
-                LISTEN NOW
-              </button>
+            <a
+              target="_blank"
+              href="https://wizkid.lnk.to/morayo"
+              className="custom-text-black py-1 px-md-2 px-1  custom-bg-red text-decoration-none "
+            >
+              LISTEN NOW
             </a>
+            
           </div>
         </div>
       </div>
