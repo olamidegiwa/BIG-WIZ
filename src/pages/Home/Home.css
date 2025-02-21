@@ -3,7 +3,7 @@
 }
 .home {
   min-width: 100vw;
-  height: 95vh;
+  height: 94vh;
   overflow: hidden;
   object-fit: contain;
 }
@@ -30,18 +30,18 @@
   position: relative;
   z-index: -1;
   width: 100% !important;
-  height: 95vh;
+  height: 100vh;
   object-fit: cover;
   overflow: hidden;
 }
-@media (min-width: 480px) {
+/* @media (min-width: 480px) {
   .home-video {
     width: 100% !important;
     height: 93vh !important;
     object-fit: cover;
     overflow: hidden;
   }
-}
+} */
 .home2 {
   font-size: 18px;
   font-weight: 900;
