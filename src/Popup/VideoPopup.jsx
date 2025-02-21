@@ -66,7 +66,7 @@ const Popup = () => {
           })}
         </div>
       </div>
-      {/* <ReactPlayer controls url={"https://www.youtube.com/watch?v=D2NkA-7WILc"} /> */}
+    
     </div>
   );
 };

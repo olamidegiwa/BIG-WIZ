@@ -34,14 +34,7 @@
   object-fit: cover;
   overflow: hidden;
 }
-/* @media (min-width: 480px) {
-  .home-video {
-    width: 100% !important;
-    height: 93vh !important;
-    object-fit: cover;
-    overflow: hidden;
-  }
-} */
+
 .home2 {
   font-size: 18px;
   font-weight: 900;
@@ -54,11 +47,7 @@
   position: absolute;
   bottom: 0%;
 }
-/* @media (min-width: 0px) {
-  .home5 {
-    top: 94%;
-  }
-} */
+
 .home5 a {
   font-size: 18px;
   font-weight: 900;
