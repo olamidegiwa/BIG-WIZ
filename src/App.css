@@ -36,6 +36,10 @@
   --red: #000000;
   --black: #ffffff;
   --white: #000000;
+
+  .Rcaimage {
+    filter: grayscale(100%) !important;
+  }
 }
 
 /* scroll to top button */
@@ -67,7 +71,7 @@
   height: 30px;
   width: 30px;
   border-radius: 50%;
- 
+
   background-color: var(--black) !important;
   color: var(--red) !important;
   border: 2px solid var(--red);
@@ -80,15 +84,15 @@
   color: var(--black) !important;
   border: 2px solid var(--black) !important;
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .darkMode {
     position: fixed;
-    bottom: 8% !important;
-    right: 2% !important;
+    bottom: 10% !important;
+    right: 3% !important;
   }
-  .top-btn-position{
+  .top-btn-position {
     position: fixed;
     bottom: 2% !important;
-    right: 2% !important;
+    right: 3% !important;
   }
 }
