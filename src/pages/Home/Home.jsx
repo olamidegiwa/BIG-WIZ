@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <div className="header ">
       <div className="home">
-        <ul className="home1  px-0 m-0 py-2 w-100 custom-bg-red d-flex justify-content-center align-items-center custom-text-black ">
+        <ul className="home1  px-0 m-0 py-1 w-100 custom-bg-red d-flex justify-content-center align-items-center custom-text-black ">
           <li
             onClick={() => scrollToSections(musics)}
             className=" home4 d-inline m-0"
@@ -50,7 +50,7 @@ const Home = () => {
           src={wizkid}
           className="home-video"
         ></video>
-        <div className="px-1  d-flex gap-md-5 gap-2 justify-content-center align-items-center home5 w-100 custom-bg-red py-2">
+        <div className="px-1  d-flex gap-md-5 gap-2 justify-content-center align-items-center home5 w-100 custom-bg-red py-1">
           <h1 className="m-0 home2 custom-text-black">THE NEW ALBUM</h1>
           <h2 className="m-0 home3 custom-text-black">MORAYO</h2>
 
