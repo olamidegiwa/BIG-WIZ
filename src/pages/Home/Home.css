@@ -3,17 +3,17 @@
 }
 .home {
   min-width: 100vw;
-  height: 94vh;
+  height: 100vh;
   overflow: hidden;
   object-fit: contain;
 }
-/* @media (max-width: 980px) {
+@media (max-width: 480px) {
   .home {
-    min-height: 100vh;
+    height: 93vh;
     overflow: hidden;
     object-fit: contain;
   }
-} */
+}
 .home1 {
   position: absolute;
   top: 0%;
