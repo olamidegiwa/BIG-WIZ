@@ -2,7 +2,7 @@ import React from "react";
 import RCA from "../assets/image/rca.svg";
 const RecordPolicy = () => {
   return (
-    <div className=" record d-flex flex-column align-items-center align-items-xl-start  gap-1  py-xl-0  py-2">
+    <div className=" record d-flex flex-column align-items-center align-items-xl-start  gap-lg-1  gap-2 py-xl-0  py-2">
       <a target="_blank" href="https://www.rcarecords.com/">
         <img src={RCA} alt="RCA" className="Rcaimage" />
       </a>

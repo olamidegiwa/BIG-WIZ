@@ -24,14 +24,16 @@
 }
 .footer p {
   font-size: 10px;
-  font-weight: 700;
-  line-height: 0.96em;
+  font-weight: bold;
+  /* font-weight: 700; */
+  line-height: 0.99em;
   color: var(--red);
 }
 .footer p a {
   font-size: 10px;
-  font-weight: 700;
-  line-height: 0.96em;
+  font-weight: bold;
+  /* font-weight: 700; */
+  line-height: 0.99em;
   color: var(--red);
 }
 @media (max-width: 1200px) {
@@ -43,8 +45,8 @@
   }
 }
 
-.footer img {
-  width: 45px;
+.Rcaimage {
+  width: 100%;
 }
 
 @media (max-width: 1200px) {
@@ -62,5 +64,7 @@
     width: 90%;
     margin: 0 auto;
   }
+  .Rcaimage {
+    width:65px ;
+  }
 }
-

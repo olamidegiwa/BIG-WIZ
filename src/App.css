@@ -40,6 +40,31 @@
   .Rcaimage {
     filter: grayscale(100%) !important;
   }
+  .home1 {
+    background-color: var(--black);
+    color: var(--red);
+  }
+  .home4:hover {
+    color: var(--white) !important;
+  }
+  .home5 {
+    background-color: var(--black);
+    border-bottom: 2px solid var(--red);
+  }
+  .home2,
+  .home3 {
+    color: var(--red);
+  }
+  .listen-Btn {
+    background-color: var(--black);
+    color: var(--red);
+    border: 2px solid var(--red);
+  }
+  .listen-Btn:hover {
+    background-color: var(--red);
+    color: var(--black);
+    border: 2px solid var(--black);
+  }
 }
 
 /* scroll to top button */

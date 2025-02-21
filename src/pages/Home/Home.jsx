@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import "./Home.css";
-// import wizkid from "../../assets/Wizkid - Morayo (Official Album Trailer).mp4";
 import wizkid from "../../assets/video/Wizkid - Morayo (Official Album Trailer).mp4";
 import HeroSection from "../../HeroSection/HeroSection";
 import Music from "../Music/Music";
@@ -51,21 +50,21 @@ const Home = () => {
           src={wizkid}
           className="home-video"
         ></video>
-        <div className="px-1 d-flex gap-md-5 gap-2 justify-content-center align-items-center  m-0 home5 w-100 custom-bg-red py-2">
+        <div className="px-1  d-flex gap-md-5 gap-2 justify-content-center align-items-center home5 w-100 custom-bg-red py-2">
           <h1 className="m-0 home2 custom-text-black">THE NEW ALBUM</h1>
           <h2 className="m-0 home3 custom-text-black">MORAYO</h2>
 
           <a
             target="_blank"
             href="https://wizkid.lnk.to/morayo"
-            className="custom-text-black py-1 px-md-2 px-1  custom-bg-red text-decoration-none "
+            className="custom-text-black py-lg-2 py-1 px-lg-2 px-1  custom-bg-red text-decoration-none listen-Btn m-0"
           >
             LISTEN NOW
           </a>
         </div>
       </div>
       <HeroSection />
-      {/* <img src="" alt="" /> */}
+
       <div ref={musics}>
         <Music />
       </div>
