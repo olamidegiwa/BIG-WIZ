@@ -51,7 +51,7 @@ const Home = () => {
           src={wizkid}
           className="home-video"
         ></video>
-        <div className="px-1 d-flex gap-md-5 gap-2 justify-content-center align-items-center pb-1 home5 w-100 custom-bg-red py-2">
+        <div className="px-1 d-flex gap-md-5 gap-2 justify-content-center align-items-center  m-0 home5 w-100 custom-bg-red py-2">
           <h1 className="m-0 home2 custom-text-black">THE NEW ALBUM</h1>
           <h2 className="m-0 home3 custom-text-black">MORAYO</h2>
 

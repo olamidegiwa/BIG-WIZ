@@ -37,12 +37,9 @@
 @media (max-width: 1200px) {
   .footer p {
     color: var(--white);
-    font-size: 8px;
-    font-weight: 700;
   }
   .footer p a {
-    font-size: 8px;
-    font-weight: 700;
+    color: var(--red);
   }
 }
 

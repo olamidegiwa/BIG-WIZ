@@ -16,7 +16,7 @@ const HeroSection = () => {
             <a
               target="_blank"
               href="https://wizkid.lnk.to/morayo"
-              className=" m-0 custom-bg-black custom-text-white px-3 py-1 border border-2 border-white text-decoration-none herosectionA"
+              className=" m-0 custom-bg-black custom-text-white px-3 py-1  text-decoration-none herosectionA"
             >
               LISTEN NOW
             </a>
@@ -33,7 +33,7 @@ const HeroSection = () => {
           <h1 className=" custom-text-white herosection5 ">KESE (DANCE)</h1>
           <a
             href="https://wizkid.lnk.to/kese"
-            className=" m-0 custom-bg-black custom-text-white px-3 py-1 border border-2 border-white text-decoration-none herosectionA"
+            className=" m-0 custom-bg-black custom-text-white px-3 py-1 text-decoration-none herosectionA"
             target="_blank"
           >
             LISTEN NOW
@@ -53,14 +53,14 @@ const HeroSection = () => {
           <div className="d-flex gap-4">
             <a
               href="https://wizkid.lnk.to/pieceofmyheart"
-              className=" m-0 custom-bg-black custom-text-white px-3 py-1 border border-2 border-white text-decoration-none herosectionA"
+              className=" m-0 custom-bg-black custom-text-white px-3 py-1  text-decoration-none herosectionA"
               target="_blank"
             >
               LISTEN NOW
             </a>
             <a
               href="https://www.youtube.com/watch?v=zr_sTaYTCnU&feature=youtu.be"
-              className=" m-0 custom-bg-black custom-text-white px-3 py-1 border border-2 border-white text-decoration-none herosectionA"
+              className=" m-0 custom-bg-black custom-text-white px-3 py-1  text-decoration-none herosectionA"
               target="_blank"
             >
               WATCH NOW

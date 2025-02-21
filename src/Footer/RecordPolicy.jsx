@@ -4,7 +4,7 @@ const RecordPolicy = () => {
   return (
     <div className=" record d-flex flex-column align-items-center align-items-xl-start  gap-1  py-xl-0  py-2">
       <a target="_blank" href="https://www.rcarecords.com/">
-        <img src={RCA} alt="RCA" />
+        <img src={RCA} alt="RCA" className="custom-text-red" />
       </a>
 
       <p className="custom-text-red text-xl-start  text-center m-0">
