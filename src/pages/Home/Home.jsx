@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./Home.css";
 import wizkid from "../../assets/video/Wizkid - Morayo (Official Album Trailer).mp4";
+import TrailerImage from "../../assets/image/i4AwIA9gFAEhd.jpg";
 import HeroSection from "../../HeroSection/HeroSection";
 import Music from "../Music/Music";
 import Popup from "../../Popup/VideoPopup";
@@ -64,7 +65,7 @@ const Home = () => {
         </div>
       </div>
       <HeroSection />
-
+      {/* <img src={TrailerImage} alt="" className="trailer-picture" /> */}
       <div ref={musics}>
         <Music />
       </div>

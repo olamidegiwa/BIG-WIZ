@@ -3,10 +3,12 @@ import { Button } from "react-bootstrap";
 import "bootstrap/js/src/modal";
 import Modal from "react-bootstrap/Modal";
 import "./VideoPopup.css";
-import { Media } from "../utils/morayo";
+import { Videos } from "../utils/morayo";
 import ReactPlayer from "react-player";
 
-const Popup = () => {
+const VideoPopup = () => {
+  const [selectedVideo, setSelectedVideo] = useState(null);
+
   return (
     <div className="custom-bg-black py-5 popup d-flex flex-column gap-5">
       <div className=" popupvideo container-xl px-xl-5 ">
@@ -14,25 +16,30 @@ const Popup = () => {
           MORE VIDEOS FROM WIZKID
         </h1>
         <div className="media-container">
-          {Media.map((data) => {
+          {Videos.map((video) => {
             return (
-              <div key={data?.id}>
-                <img
-                  src={data?.img}
-                  alt="image"
-                  data-bs-toggle="modal"
-                  className="media cursor-pointer"
-                  data-bs-target="#imageExample"
-                />
+              <div key={video.id}>
+                <div onClick={() => setSelectedVideo(video.url)}>
+                  <img
+                    src={video.image}
+                    alt="image"
+                    data-bs-toggle="modal"
+                    className="media cursor-pointer"
+                    data-bs-target="#imageExample"
+                  />
+                </div>
                 <div className="d-flex justify-content-between">
-                  <p className="custom-text-white title">{data?.title}</p>
-                  <a
-                    target="_blank"
-                    className="custom-text-white title"
-                    // href={data.link}
-                  >
-                    WATCH NOW
-                  </a>
+                  <p className="custom-text-white title">{video.desc}</p>
+
+                  <div>
+                    <a
+                      target="_blank"
+                      className="custom-text-white title"
+                      href={video.url}
+                    >
+                      WATCH NOW
+                    </a>
+                  </div>
                 </div>
 
                 <div
@@ -45,7 +52,8 @@ const Popup = () => {
                     <div className="modal-content">
                       <div className="modal-body">
                         <ReactPlayer
-                          url={data?.video}
+                          // url={video.url}
+                          url={selectedVideo}
                           controls={true}
                           className="d-block video"
                         />
@@ -66,9 +74,8 @@ const Popup = () => {
           })}
         </div>
       </div>
-    
     </div>
   );
 };
 
-export default Popup;
+export default VideoPopup;

@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaMoon, FaRegMoon } from "react-icons/fa";
+import { BsFillMoonFill, BsMoon } from "react-icons/bs";
 
-const DarkMode = ({ darkMode, setDarkMode }) => {
+const DarkMode = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
   if (darkMode) {
     document.body.classList.remove("light-mode");
   } else {
-    document.body.classList.add("dark-mode");
+    document.body.classList.add("light-mode");
   }
+  const icon = darkMode ? <BsFillMoonFill /> : <BsMoon />;
   return (
     <div
+      className="Dark-Mode"
       onClick={() => {
         document.body.classList.toggle("light-mode");
         setDarkMode(!darkMode);
@@ -19,7 +24,7 @@ const DarkMode = ({ darkMode, setDarkMode }) => {
         }
       }}
     >
-      <span className="darkMode ">{darkMode ? <FaMoon /> : <FaRegMoon />}</span>
+      {icon}
     </div>
   );
 };

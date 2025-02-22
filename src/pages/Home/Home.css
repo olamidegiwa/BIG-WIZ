@@ -83,3 +83,8 @@
     font-weight: 900;
   }
 }
+.trailer-picture {
+  width: 100%;
+  object-fit: cover;
+  position: static;
+}

@@ -89,7 +89,7 @@
   border: 2px solid var(--black) !important;
 }
 
-.darkMode {
+.Dark-Mode {
   position: fixed !important;
   bottom: 2% !important;
   right: 5% !important;
@@ -103,14 +103,14 @@
   cursor: pointer;
   z-index: 1;
 }
-.darkMode:hover {
+.Dark-Mode:hover {
   animation: none;
   background-color: var(--red) !important;
   color: var(--black) !important;
   border: 2px solid var(--black) !important;
 }
 @media (max-width: 1200px) {
-  .darkMode {
+  .Dark-Mode {
     position: fixed;
     bottom: 10% !important;
     right: 3% !important;
