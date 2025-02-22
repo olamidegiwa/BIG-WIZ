@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { FaMoon, FaRegMoon } from "react-icons/fa";
 import { BsFillMoonFill, BsMoon } from "react-icons/bs";
 
 const DarkMode = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   if (darkMode) {
     document.body.classList.remove("light-mode");

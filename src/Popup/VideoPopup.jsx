@@ -19,19 +19,26 @@ const VideoPopup = () => {
           {Videos.map((video) => {
             return (
               <div key={video.id}>
-                <div onClick={() => setSelectedVideo(video.url)}>
-                  <img
-                    src={video.image}
-                    alt="image"
-                    data-bs-toggle="modal"
-                    className="media cursor-pointer"
-                    data-bs-target="#imageExample"
-                  />
-                </div>
+                <img
+                  onClick={() => setSelectedVideo(video.url)}
+                  src={video.image}
+                  alt="image"
+                  data-bs-toggle="modal"
+                  className="media cursor-pointer"
+                  data-bs-target="#imageExample"
+                />
+
                 <div className="d-flex justify-content-between">
                   <p className="custom-text-white title">{video.desc}</p>
 
-                  <div>
+                  {/* <p
+                    onClick={() => setSelectedVideo(video)}
+                    className="custom-text-white title text-decoration-underline"
+                  >
+                    WATCH NOW
+                  </p> */}
+
+                  <div onClick={() => setSelectedVideo(video.url)}>
                     <a
                       target="_blank"
                       className="custom-text-white title"
@@ -52,7 +59,6 @@ const VideoPopup = () => {
                     <div className="modal-content">
                       <div className="modal-body">
                         <ReactPlayer
-                          // url={video.url}
                           url={selectedVideo}
                           controls={true}
                           className="d-block video"
