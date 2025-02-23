@@ -15,7 +15,7 @@ const VideoPopup = () => {
         <h1 className="text-start custom-text-white pb-lg-5 pb-2 px-0">
           MORE VIDEOS FROM WIZKID
         </h1>
-        <div className="media-container">
+        {/* <div className="media-container">
           {Videos.map((video) => {
             return (
               <div key={video.id}>
@@ -31,12 +31,7 @@ const VideoPopup = () => {
                 <div className="d-flex justify-content-between">
                   <p className="custom-text-white title">{video.desc}</p>
 
-                  {/* <p
-                    onClick={() => setSelectedVideo(video)}
-                    className="custom-text-white title text-decoration-underline"
-                  >
-                    WATCH NOW
-                  </p> */}
+            
 
                   <div onClick={() => setSelectedVideo(video.url)}>
                     <a
@@ -78,7 +73,66 @@ const VideoPopup = () => {
               </div>
             );
           })}
-        </div>
+        </div> */}
+        <di className="media-container">
+          {Videos.map((video) => {
+            return (
+              <div key={video.id}>
+                <img
+                  onClick={() => setSelectedVideo(video.url)}
+                  src={video.image}
+                  alt="image"
+                  data-bs-toggle="modal"
+                  data-bs-target="#videoModal"
+                  className="media cursor-pointer"
+                />
+
+                <div className="d-flex justify-content-between">
+                  <p className="custom-text-white title">{video.desc}</p>
+
+                  <p
+                    style={{ cursor: "pointer" }}
+                    className="custom-text-white title text-decoration-underline m-0 "
+                    data-bs-toggle="modal"
+                    data-bs-target="#videoModal"
+                    onClick={() => setSelectedVideo(video.url)}
+                  >
+                    WATCH NOW
+                  </p>
+                </div>
+
+                <div
+                  className="modal fade  "
+                  id="videoModal"
+                  tableIndex="-1"
+                  aria-labelledby="videoModalLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-body">
+                        <ReactPlayer
+                          url={selectedVideo}
+                          controls={true}
+                          className="d-block video"
+                        />
+                      </div>
+
+                      <button
+                        type="button"
+                        className="custom-bg-black  custom-text-white text-decoration-underline border-0 m-0 modal-button"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        CLOSE
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </di>
       </div>
     </div>
   );

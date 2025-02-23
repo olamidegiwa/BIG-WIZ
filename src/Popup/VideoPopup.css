@@ -13,7 +13,6 @@
   font-size: 16px;
   font-weight: 900;
 }
-
 .popupvideo h1 {
   font-size: 24px;
   font-weight: 900;
@@ -70,12 +69,4 @@
 .modal-button {
   font-size: 18px;
   font-weight: 900;
-}
-
-/* **************** */
-.div1 {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
-  gap: 50px;
-  margin: auto;
 }
