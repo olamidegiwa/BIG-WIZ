@@ -3,7 +3,7 @@
 }
 .home {
   min-width: 100vw;
-  height: 98vh;
+  height: 95vh;
   overflow: hidden;
   object-fit: contain;
   display: flex;
@@ -11,14 +11,14 @@
 }
 @media (max-width: 1200px) {
   .home {
-    height: 100vh;
+    height: 93vh;
     overflow: hidden;
     object-fit: contain;
   }
 }
 .navbar {
-  /* position: absolute;
-  top: 0%; */
+  position: absolute;
+  top: 0%;
   gap: 95px;
   font-size: 32px;
   font-weight: 900;
@@ -29,8 +29,8 @@
   cursor: pointer;
 }
 .home-video {
-  /* position: relative;
-  z-index: -1; */
+  position: relative;
+  z-index: -1;
   width: 100% !important;
   height: 100vh;
   object-fit: cover;
@@ -45,10 +45,10 @@
   font-size: 42px;
   font-weight: 900;
 }
-/* .home5 {
+.home5 {
   position: absolute;
   bottom: 0%;
-} */
+}
 
 .home5 a {
   font-size: 18px;
