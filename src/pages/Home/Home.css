@@ -9,13 +9,13 @@
   display: flex;
   flex-direction: column;
 }
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
   .home {
-    height: 93vh;
+    height: 92.5vh;
     overflow: hidden;
     object-fit: contain;
   }
-} */
+}
 .navbar {
   position: absolute;
   top: 0%;
@@ -38,7 +38,7 @@
 }
 @media (max-width: 480px) {
   .home-video {
-    height: 94vh;
+    height: 92.5vh;
   }
 }
 .home2 {
