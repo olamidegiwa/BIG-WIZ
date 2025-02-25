@@ -36,11 +36,11 @@
   object-fit: cover;
   overflow: hidden;
 }
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
   .home-video {
-    height: 100vh;
+    height: 94vh;
   }
-} */
+}
 .home2 {
   font-size: 18px;
   font-weight: 900;
