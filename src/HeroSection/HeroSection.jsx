@@ -6,7 +6,7 @@ import pieceofmyheart from "../assets/image/Piece_of_my_Heart.webp";
 const HeroSection = () => {
   return (
     <div className="custom-bg-black py-5 herosection ">
-      <div className="container px-4 d-flex flex-column flex-xl-row justify-content-xl-center align-items-xl-center herosection3 justify-content-sm-start align-items-sm-start py-5">
+      <div className="py-5 py-lg-0 px-4 d-flex flex-column flex-xl-row justify-content-start align-items-start align-items-lg-center herosection3">
         <img src={morayo} alt="morayo" className="morayo" />
 
         <div className="d-flex flex-column justify-content-start align-items-start herosection4">
@@ -23,8 +23,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="container px-4 py-5 d-flex flex-column flex-xl-row justify-content-xl-center align-items-xl-center herosection3 justify-content-sm-start align-items-sm-start">
-        <img src={kesedance} alt="morayo" className="morayo" />
+      <div className="py-5 py-lg-0 px-4 d-flex flex-column flex-xl-row justify-content-start align-items-start align-items-lg-center herosection3 ">
+        <img src={kesedance} alt="morayo" className="morayo " />
 
         <div className="d-flex flex-column justify-content-start align-items-start herosection4">
           <h5 className="m-0 custom-text-white herosection1">
@@ -40,7 +40,7 @@ const HeroSection = () => {
           </a>
         </div>
       </div>
-      <div className="container px-4 py-5 d-flex flex-column flex-xl-row justify-content-xl-center align-items-xl-center herosection3 justify-content-sm-start align-items-sm-start">
+      <div className="py-5 py-lg-0 px-4  d-flex flex-column flex-xl-row justify-content-start align-items-start align-items-lg-center  herosection3 ">
         <img src={pieceofmyheart} alt="morayo" className="morayo" />
 
         <div className="d-flex flex-column justify-content-start align-items-start herosection4">

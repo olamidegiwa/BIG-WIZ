@@ -12,10 +12,10 @@ const VideoPopup = () => {
   return (
     <div className="custom-bg-black py-5 popup d-flex flex-column gap-5">
       <div className=" popupvideo container-xl px-xl-5 ">
-        <h1 className="text-start custom-text-white pb-lg-5 pb-2 px-0">
+        <h1 className="text-start custom-text-white pb-3 px-0">
           MORE VIDEOS FROM WIZKID
         </h1>
-        
+
         <div className="media-container">
           {Videos.map((video) => {
             return (

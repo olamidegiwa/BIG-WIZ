@@ -9,7 +9,7 @@
   font-size: 24px;
   font-weight: bold;
   color: var(--white);
-  width: 75%;
+  width: 70%;
 }
 .footer input:focus {
   outline: none;
@@ -43,13 +43,6 @@
   .footer p a {
     color: var(--red);
   }
-}
-
-.Rcaimage {
-  width: 100%;
-}
-
-@media (max-width: 1200px) {
   .email {
     width: 90%;
     border-bottom: 1px solid var(--red);
@@ -64,7 +57,9 @@
     width: 90%;
     margin: 0 auto;
   }
+}
+@media (max-width: 480px) {
   .Rcaimage {
-    width:65px ;
+    width: 70px !important;
   }
 }

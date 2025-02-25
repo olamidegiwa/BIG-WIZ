@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BsFillMoonFill, BsMoon } from "react-icons/bs";
-
+import { GoMoon } from "react-icons/go";
 const DarkMode = () => {
   const [darkMode, setDarkMode] = useState(true);
 
@@ -9,7 +9,7 @@ const DarkMode = () => {
   } else {
     document.body.classList.add("light-mode");
   }
-  const icon = darkMode ? <BsFillMoonFill /> : <BsMoon />;
+  const icon = darkMode ? <BsFillMoonFill /> : <GoMoon className="fs-5"/>;
   return (
     <div
       className="Dark-Mode"

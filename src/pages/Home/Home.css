@@ -85,6 +85,8 @@
 }
 .trailer-picture {
   width: 100%;
-  object-fit: cover;
-  position: static;
+  height: 100%;
+  object-fit: contain;
+  position: sticky;
+  /* top: 50%; */
 }
