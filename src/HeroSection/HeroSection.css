@@ -6,9 +6,21 @@
   margin: 60px auto;
   gap: 100px;
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .herosection3 {
-    margin: 20px auto;
+    margin: 40px auto;
+    gap: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .herosection3 {
+    margin: 10px auto;
+    gap: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .herosection3 {
+    margin: 5px auto;
     gap: 12px;
   }
 }

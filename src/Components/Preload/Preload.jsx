@@ -3,7 +3,7 @@ import "./Preload.css";
 
 const Preload = () => {
   return (
-    <div className="preloader">
+    <div className="preload">
       <div d-flex flex-column>
         <p className="emoji" data-aos="zoom-in-up" aosDelay="800">
           🕊
