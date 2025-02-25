@@ -9,18 +9,18 @@
 @media (max-width: 1200px) {
   .herosection3 {
     margin: 40px auto;
-    gap: 40px;
+    gap: 20px;
   }
 }
 @media (max-width: 768px) {
   .herosection3 {
-    margin: 10px auto;
+    margin: 15px auto;
     gap: 12px;
   }
 }
 @media (max-width: 480px) {
   .herosection3 {
-    margin: 5px auto;
+    margin: 10px auto;
     gap: 12px;
   }
 }

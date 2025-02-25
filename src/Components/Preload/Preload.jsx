@@ -9,22 +9,22 @@ const Preload = () => {
           🕊
         </p>
         <div className="d-flex">
-          <h1 data-aos="fade-right" data-aos-duration="500">
+          <h1 data-aos="fade-right" data-aos-duration="600">
             B
           </h1>
           <h1 data-aos="fade-right" data-aos-duration="400">
             I
           </h1>
-          <h1 data-aos="fade-right" data-aos-duration="300">
+          <h1 data-aos="fade-right" data-aos-duration="200">
             G
           </h1>
-          <h1 data-aos="fade-right" data-aos-duration="200">
+          <h1 data-aos="fade-left" data-aos-duration="100">
             W
           </h1>
-          <h1 data-aos="fade-right" data-aos-duration="100">
+          <h1 data-aos="fade-left" data-aos-duration="400">
             I
           </h1>
-          <h1 data-aos="fade-right" aosDelay="0">
+          <h1 data-aos="fade-left" aosDelay="600">
             Z
           </h1>
         </div>
