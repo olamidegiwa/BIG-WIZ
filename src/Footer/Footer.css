@@ -25,14 +25,12 @@
 .footer p {
   font-size: 10px;
   font-weight: bold;
-  /* font-weight: 700; */
   line-height: 1.15em;
   color: var(--red);
 }
 .footer p a {
   font-size: 10px;
   font-weight: bold;
-  /* font-weight: 700; */
   line-height: 1.15em;
   color: var(--red);
 }

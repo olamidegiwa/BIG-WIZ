@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div className="header ">
       <div className="home">
-        <ul className="home1  px-0 m-0 py-1 w-100 custom-bg-red d-flex justify-content-center align-items-center custom-text-black ">
+        <ul className="navbar px-0 m-0 py-1 w-100 custom-bg-red d-flex justify-content-center align-items-center custom-text-black ">
           <li
             onClick={() => scrollToSections(musics)}
             className=" home4 d-inline m-0"
@@ -65,7 +65,7 @@ const Home = () => {
         </div>
       </div>
       <HeroSection />
-      {/* <img src={TrailerImage} alt="" className="trailer-picture" /> */}
+      <div className="hero"></div>
       <div ref={musics}>
         <Music />
       </div>

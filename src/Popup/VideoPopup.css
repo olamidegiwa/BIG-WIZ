@@ -20,15 +20,19 @@
 .popupvideo .media-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+  justify-content: center;
+  align-items: center;
   gap: 50px;
   margin: auto;
 }
 @media (max-width: 480px) {
   .popupvideo .media-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
+    gap: 20px;
   }
 }
 .popupvideo .media-container .media {
@@ -64,6 +68,7 @@
 .video {
   width: 100% !important;
   height: 220px !important;
+  margin: 0 auto;
 }
 
 .modal-button {

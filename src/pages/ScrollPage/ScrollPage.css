@@ -1,0 +1,28 @@
+.scrollpage {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.hero {
+  background-image: url("../../assets/image/i4AwIA9gFAEhd.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@media (max-width: 768px) {
+  .hero {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-attachment: scroll; 
+    z-index: -1;
+  }
+}
+.content {
+  min-height: 100vh;
+}
