@@ -5,7 +5,7 @@ const Preload = () => {
   return (
     <div className="preload">
       <div d-flex flex-column>
-        <p className="emoji" data-aos="zoom-in-up" aosDelay="800">
+        <p className="emoji" data-aos="fade-up" aosDelay="800">
           🕊
         </p>
         <div className="d-flex">
@@ -18,7 +18,7 @@ const Preload = () => {
           <h1 data-aos="fade-right" data-aos-duration="200">
             G
           </h1>
-          <h1 data-aos="fade-left" data-aos-duration="100">
+          <h1 data-aos="fade-left" data-aos-duration="0">
             W
           </h1>
           <h1 data-aos="fade-left" data-aos-duration="400">
@@ -28,8 +28,6 @@ const Preload = () => {
             Z
           </h1>
         </div>
-
-        {/* <h1 data-aos="fade-right">BIGWIZ</h1> */}
       </div>
     </div>
   );
