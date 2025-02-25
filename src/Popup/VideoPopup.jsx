@@ -57,7 +57,6 @@ const VideoPopup = () => {
                           url={selectedVideo}
                           controls={true}
                           preload="none"
-                          type="video/mp4"
                           className="d-block video"
                         />
                       </div>
