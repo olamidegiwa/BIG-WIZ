@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div
         data-aos="fade-up"
         aosDelay="400"
-        className="pt-5 py-lg-0 px-4 d-flex flex-column flex-xl-row justify-content-start align-items-start align-items-xl-center herosection3"
+        className="pt-2 px-4 d-flex flex-column flex-xl-row justify-content-start align-items-start align-items-xl-center herosection3"
       >
         <img src={morayo} alt="morayo" className="morayo" />
 
@@ -30,7 +30,7 @@ const HeroSection = () => {
       <div
         data-aos="fade-up"
         aosDelay="400"
-        className="pt-5 py-lg-0 px-4 d-flex flex-column flex-xl-row justify-content-start align-items-start align-items-xl-center herosection3 "
+        className="pt-5  px-4 d-flex flex-column flex-xl-row justify-content-start align-items-start align-items-xl-center herosection3 "
       >
         <img src={kesedance} alt="morayo" className="morayo " />
 
