@@ -9,7 +9,6 @@ import DarkMode from "./Components/DarkMode";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Preload from "./Components/Preload/Preload";
-
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {

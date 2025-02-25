@@ -16,13 +16,22 @@
   font-size: 100px;
   font-weight: bold;
 }
+.emoji {
+  font-size: 100px;
+}
 @media (max-width: 768px) {
   .preloader h1 {
+    font-size: 80px;
+  }
+  .emoji {
     font-size: 80px;
   }
 }
 @media (max-width: 480px) {
   .preloader h1 {
+    font-size: 60px;
+  }
+  .emoji {
     font-size: 60px;
   }
 }
