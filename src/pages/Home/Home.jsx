@@ -46,7 +46,7 @@ const Home = () => {
           loop
           autoPlay
           muted
-          preload
+          preload="none"
           playsInline
           src={wizkid}
           className="home-video"

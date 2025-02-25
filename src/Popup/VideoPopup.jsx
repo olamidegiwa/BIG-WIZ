@@ -56,6 +56,7 @@ const VideoPopup = () => {
                         <ReactPlayer
                           url={selectedVideo}
                           controls={true}
+                          preload="none"
                           className="d-block video"
                         />
                       </div>
