@@ -16,7 +16,7 @@ const VideoPopup = () => {
           MORE VIDEOS FROM WIZKID
         </h1>
 
-        <div className="media-container">
+        <div className="media-container mt-3">
           {Videos.map((video) => {
             return (
               <div key={video.id}>
