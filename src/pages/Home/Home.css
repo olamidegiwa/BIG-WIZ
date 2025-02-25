@@ -3,19 +3,19 @@
 }
 .home {
   min-width: 100vw;
-  height: 95vh;
+  height: 100vh;
   overflow: hidden;
   object-fit: contain;
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 1200px) {
+/* @media (max-width: 480px) {
   .home {
     height: 93vh;
     overflow: hidden;
     object-fit: contain;
   }
-}
+} */
 .navbar {
   position: absolute;
   top: 0%;
@@ -36,7 +36,11 @@
   object-fit: cover;
   overflow: hidden;
 }
-
+/* @media (max-width: 480px) {
+  .home-video {
+    height: 100vh;
+  }
+} */
 .home2 {
   font-size: 18px;
   font-weight: 900;
