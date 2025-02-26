@@ -5,6 +5,7 @@ import Modal from "react-bootstrap/Modal";
 import "./VideoPopup.css";
 import { Videos } from "../utils/morayo";
 import ReactPlayer from "react-player";
+import LazyLoad from "react-lazy-load";
 
 const VideoPopup = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -53,12 +54,15 @@ const VideoPopup = () => {
                   <div className="modal-dialog">
                     <div className="modal-content">
                       <div className="modal-body">
-                        <ReactPlayer
-                          url={selectedVideo}
-                          controls={true}
-                          preload="none"
-                          className="d-block video"
-                        />
+                        <LazyLoad>
+                          <ReactPlayer
+                            url={selectedVideo}
+                            controls={true}
+                            preload="none"
+                            type="video/mp4"
+                            className="d-block video"
+                          />
+                        </LazyLoad>
                       </div>
 
                       <button
