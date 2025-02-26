@@ -7,7 +7,7 @@ import Music from "../Music/Music";
 import Popup from "../../Popup/VideoPopup";
 import Tour from "../Tour/Tour";
 import { Outlet } from "react-router-dom";
-
+import LazyLoad from "react-lazy-load";
 const Home = () => {
   const musics = useRef(null);
   const videos = useRef(null);
@@ -42,16 +42,18 @@ const Home = () => {
             TOUR
           </li>
         </ul>
-        <video
-          loop
-          autoPlay
-          muted
-          preload="none"
-          type="video/mp4"
-          playsInline
-          src={wizkid}
-          className="home-video"
-        ></video>
+        <LazyLoad>
+          <video
+            loop
+            autoPlay
+            muted
+            preload="none"
+            type="video/mp4"
+            playsInline
+            src={wizkid}
+            className="home-video"
+          ></video>
+        </LazyLoad>
         <div className="px-1  d-flex gap-md-5 gap-2 justify-content-center align-items-center home5 w-100 custom-bg-red py-1">
           <h1 className="m-0 home2 custom-text-black">THE NEW ALBUM</h1>
           <h2 className="m-0 home3 custom-text-black">MORAYO</h2>
