@@ -57,9 +57,16 @@ const VideoPopup = () => {
                         <LazyLoad>
                           <ReactPlayer
                             url={selectedVideo}
+                            config={{
+                              youtube: {
+                                playerVars: { showinfo: 1 }
+                              },
+                              facebook: {
+                                appId: '12345'
+                              }
+                            }}
                             controls={true}
                             preload="none"
-                            type="video/mp4"
                             className="d-block video"
                           />
                         </LazyLoad>

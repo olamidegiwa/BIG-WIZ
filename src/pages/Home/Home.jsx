@@ -48,11 +48,12 @@ const Home = () => {
             autoPlay
             muted
             preload="none"
-            type="video/mp4"
             playsInline
-            src={wizkid}
             className="home-video"
-          ></video>
+          >
+            {" "}
+            <source src={wizkid} type="video/mp4" />
+          </video>
         </LazyLoad>
         <div className="px-1  d-flex gap-md-5 gap-2 justify-content-center align-items-center home5 w-100 custom-bg-red py-1">
           <h1 className="m-0 home2 custom-text-black">THE NEW ALBUM</h1>
