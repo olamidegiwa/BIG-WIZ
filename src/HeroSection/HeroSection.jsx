@@ -15,7 +15,7 @@ const HeroSection = () => {
 
         <div className="d-flex flex-column justify-content-start align-items-start herosection4">
           <h5 className="m-0 custom-text-white herosection1">THE NEW ALBUM</h5>
-          <h1 className=" custom-text-white herosection2 ">MORAYO</h1>
+          <h1 className=" custom-text-white herosection2 Morayo ">MORAYO</h1>
           <div>
             <a
               target="_blank"

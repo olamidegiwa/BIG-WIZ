@@ -57,7 +57,7 @@ const Home = () => {
         </LazyLoad>
         <div className="px-1  d-flex gap-md-5 gap-2 justify-content-center align-items-center home5 w-100 custom-bg-red py-1">
           <h1 className="m-0 home2 custom-text-black">THE NEW ALBUM</h1>
-          <h2 className="m-0 home3 custom-text-black">MORAYO</h2>
+          <h2 className="m-0 home3 custom-text-black Morayo">MORAYO</h2>
 
           <a
             target="_blank"
@@ -70,7 +70,7 @@ const Home = () => {
       </div>
       <HeroSection />
 
-      <img src={TrailerImage} alt="image" className="image-trailer" />
+      <img src={TrailerImage} alt="image" className="image-trailer d-lg-none" />
 
       <div ref={musics}>
         <Music />

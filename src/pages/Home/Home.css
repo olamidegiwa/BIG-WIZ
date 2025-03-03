@@ -36,6 +36,7 @@
   object-fit: cover;
   overflow: hidden;
 }
+
 @media (max-width: 480px) {
   .home-video {
     height: 92.5vh;
@@ -92,7 +93,7 @@
 
 .image-trailer {
   width: 100% !important;
-  height: 70vh;
+  height: 80vh;
   object-fit: cover;
   overflow: hidden;
   z-index: -1;
@@ -105,5 +106,3 @@
     overflow: hidden;
   }
 }
-
-
