@@ -67,10 +67,8 @@
   }
 }
 .Morayo {
-  font-family: "LorimerNo2Stencil";
+  font-family: "LorimerNo2Stencil" !important;
 }
-
-
 
 /* scroll to top button */
 
