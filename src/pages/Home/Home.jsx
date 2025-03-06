@@ -7,7 +7,6 @@ import Music from "../Music/Music";
 import Popup from "../../Popup/VideoPopup";
 import Tour from "../Tour/Tour";
 import { Outlet } from "react-router-dom";
-// import LazyLoad from "react-lazy-load";
 const Home = () => {
   const musics = useRef(null);
   const videos = useRef(null);
